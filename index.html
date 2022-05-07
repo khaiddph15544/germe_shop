@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mysite</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="demo.css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <header>
+            <div class="box_header_top">
+                <div class="header_top">
+                    <a href="#" class="phone">
+                        <i class="fas fa-phone-volume    "></i></i> <span>0962.597.441 - 0375.230.483</span>
+                    </a>
+                    <nav class="header_top_right">
+                        <a href="file:///D:/Assignment_tkweb+html5/formLogin/login.html" class="account">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <p>Tài khoản</p>
+                        </a>
+                        <a href="file:///D:/Assignment_tkweb+html5/cart/cart.html" class="cart">
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            <p>Giỏ hàng</p>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <div class="box_header_bottom">
+                <nav class="header_bottom">
+                    <a href="file:///D:/Assignment_tkweb+html5/homepages/demo.html" id="logo">
+                        <img src="../img/logog.png" alt="">
+                    </a>
+                    <div class="menu">
+                        <ul>
+                            <li class="homepage"><a href="file:///D:/Assignment_tkweb+html5/homepages/demo.html">TRANG
+                                    CHỦ</a></li>
+                            <li class="btn_hover"><a href="#">GERM DESIGN</a>
+                                <div class="sub_menu">
+                                    <div class="sub_menu_left">
+                                        <ul>
+                                            <li><a href="#">JUMSUIT</a></li>
+                                            <li><a href="#">QUẦN TK</a></li>
+                                            <li><a href="https://hocwebchuan.com/reference/jquery/jquery_find.php">Váy
+                                                    Thiết
+                                                    kế</a>
+                                            </li>
+                                            <li><a href="#">Áo Thiết kế</a></li>
+                                            <li><a href="#">Set Thiết kế</a></li>
+                                            <li><a href="#">Phụ Kiện Thiết Kế</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub_menu_right">
+                                        <div class="sub_menu_right_item1">
+                                            <a href="#">
+                                                <img src="../img/imgproduct/img22.jpg" alt="">
+                                            </a>
+                                            <a href="#" id="text">
+                                                <p>Áo sơ mi cổ sen 2 cúc TAA89</p>
+                                            </a>
+                                        </div>
+                                        <div class="sub_menu_right_item2">
+                                            <a href="#">
+                                                <img src="../img/imgproduct/img12.jpg" alt="">
+                                            </a>
+                                            <a href="#" id="text">
+                                                <p>Váy cổ tròn đính nơ ngực TCL132</p>
+                                            </a>
+                                        </div>
+                                        <div class="sub_menu_right_item3">
+                                            <a href="#">
+                                                <img src="../img/imgproduct/img11.jpg" alt="">
+                                            </a>
+                                            <a href="#" id="text">
+                                                <p>Váy cổ v chân xếp ly DCV869</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#">VÁY</a></li>
+                            <li><a href="#">ÁO</a></li>
+                            <li><a href="#">QUẦN</a></li>
+                            <li><a href="#">LOOKBOOK</a></li>
+                            <li><a href="#">NHƯỢNG QUYỀN</a></li>
+                        </ul>
+                    </div>
+                    <label for="nav_check" class="btn_menu_tablet">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <input type="checkbox" hidden id="nav_check">
+                    <label for="nav_check" class="overlay">
+
+                    </label>
+                    <div class="menu_tablet">
+                        <label for="nav_check" class="menu_tablet_close">
+                            <i class="fas fa-times"></i>
+                        </label>
+                        <div class="menu_tablet_title">
+                            <h2>MENU</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="file:///D:/Assignment_tkweb+html5/homepages/demo.html">
+
+                                    TRANG CHỦ</a>
+                            </li>
+                            <li><a href="#">
+
+                                    GERM DESIGN</a></li>
+                            <li><a href="#">
+
+                                    VÁY</a></li>
+                            <li><a href="#">
+
+                                    ÁO</a></li>
+                            <li><a href="#">
+
+                                    QUẦN</a>
+                            </li>
+                            <li><a href="#">
+                                    LOOKBOOK</a>
+                            </li>
+                            <li><a href="#">
+
+                                    NHƯỢNG QUYỀN</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <form action="https://germe.vn/" class="search">
+                        <input type="text" placeholder="Tìm kiếm" required>
+                        <a href="#">
+                            <button class="fa fa-search"></button>
+                        </a>
+                        <label for="check_search">
+                            <i class="fa fa-search sub_search" aria-hidden="true"></i>
+                        </label>
+                    </form>
+
+                </nav>
+
+                <input type="checkbox" id="check_search" hidden class="checksearch_tablet_mobile">
+
+                <div class="box_sub_search">
+                    <form action="">
+                        <input type="text" required>
+                        <button>Tìm kiếm</button>
+                    </form>
+                </div>
+
+
+                <input type="checkbox" hidden id="boxsearch_mobile_check">
+                <div class="header_item_mobile_right">
+                    <label for="boxsearch_mobile_check" class="mobile_search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </label>
+                    <div class="mobile_cart">
+                        <a href=""><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="mobile_user">
+                        <a href=""><i class="fa fa-user" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="mobile_phone">
+                        <a href="#">
+                            <i class="fa fa-phone" aria-hidden="true"></i><span>0962.597.441 - 0375.230.483</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <label for="boxsearch_mobile_check" class="boxsearch_mobile_layer">
+
+                </label>
+                <div class="boxsearch_mobile">
+                    <span>Tìm kiếm</span>
+                    <div class="box_search_mobile_content">
+                        <input type="text" placeholder="Nhập tìm kiếm tại đây">
+                    </div>
+                    <a href="">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+        </header>
+        <!-- <div class="popup">
+            <div class="layer_popup">
+                <div class="content_popup">
+                    <div class="content_popup_img">
+                        <img src="../img/imgproduct/img22.jpg" alt="">
+                    </div>
+                    <div class="content_popup_title">
+                        <h3>MUA 2 TẶNG 1 – MUA 1 FREESHIP</h3>
+                    </div>
+                    <div class="content_popup_txt">
+                        QUÀ NÓNG BỎNG TAY TỪ #GERMSHOP
+                    </div>
+                    <div class="content_popup_search">
+                        <form action="">
+                            <input type="text" id="" placeholder="Nhập số điện thoại của bạn">
+                            <input type="" placeholder="Nhập số email của bạn">
+                            <button>Đăng kí</button>
+                        </form>
+                        <a href="#">KHÔNG, CẢM ƠN</a>
+                    </div>
+                    <div class="content_popup_contact">
+                        <h3>Liên hệ với chúng tôi</h3>
+                    </div>
+                    <div class="disable_popup">
+                        
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <input type="checkbox" hidden id="check_aside_hide">
+        <div class="aside_hide">
+            <nav>
+                <ul>
+                    <li><a href="#">Danh mục sản phẩm</a></li>
+                    <li><a href="#">Sản phẩm nổi bật</a></li>
+                    <li><a href="#">Tin tức</a></li>
+                    <li style="border: none;"><a href="#">Thông tin liên hệ</a></li>
+                </ul>
+            </nav>
+            <label for="check_aside_hide" class="aside_hide_icon">
+                <img src="../img/chevron_aside_hide.png" alt="">
+            </label>
+        </div>
+
+        <main>
+            <input type="checkbox" hidden id="check_quickac">
+
+            <div class="quick_ac">
+                <label for="check_quickac" class="bg_quickac">
+                    <i class="fas fa-sort-up"></i>
+                    <div class="bg_quickac_txt">
+                        <h2><span>Giảm</span> <span>thêm</span> <span>10%</span></h2>
+                    </div>
+                </label>
+                <div class="quickac_img">
+                    <img src="../img/quickac.gif" alt="">
+                </div>
+
+                <form action="" class="quickac_search">
+                    <input type="text" placeholder="NHẬP EMAIL TẠI ĐÂY..." required>
+                    <button>Đăng kí</button>
+                </form>
+            </div>
+
+            <div id="myCarousel" class="carousel slide border" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="../img/banner_1.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="../img/banner 6.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="../img/sb_1600223731_18.jpg" alt="">
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true" style="font-size:50px"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="main_top">
+                <aside>
+                    <div class="list">
+                        <div class="bg_title_top">
+                            <a href="file:///D:/Assignment_tkweb+html5/all_product/index.html">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                <h2>DANH MỤC SẢN PHẨM</h2>
+                            </a>
+                        </div>
+                        <div class="list_menu">
+                            <ul>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-sort-down    "></i>
+                                        Bộ sưu tập mới
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-sort-down    "></i>
+                                        Váy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-sort-down    "></i>
+                                        Quần thời trang
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-sort-down    "></i>
+                                        Áo thời trang
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-sort-down    "></i>
+                                        Set thiết kế
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-sort-down    "></i>
+                                        Germ design
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-sort-down    "></i>
+                                        Phụ kiện thiết kế
+                                    </a>
+                                </li>
+                                <li id="more">
+                                    <a href="#">
+                                        Xem thêm...
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="hot">
+                        <div class="bg_title">
+                            <a href="#">
+                                <h2>SẢN PHẨM NỔI BẬT</h2>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <article>
+                            <section>
+                                <div>
+                                    <a href="#" class="hot_img">
+                                        <img src="../img/imgproduct/img3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="hot_item">
+                                    <a href="#">
+                                        <p>Váy cổ tròn chân xếp ly súp giữa DAV139</p>
+                                    </a>
+                                    <span class="hot_sale">280,000₫</span>
+
+                                    <span class="old">439,000₫</span>
+                                </div>
+                            </section>
+                            <section>
+                                <div>
+                                    <a href="#" class="hot_img">
+                                        <img src="../img/imgproduct/img21.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="hot_item">
+                                    <a href="#">
+                                        <p>Váy cổ v 2 túi cổ tròn đính nơ TCV159</p>
+                                    </a>
+                                    <span class="hot_sale">280,000₫</span>
+
+                                    <span class="old">439,000₫</span>
+                                </div>
+                            </section>
+                            <section>
+                                <div>
+                                    <a href="#" class="hot_img">
+                                        <img src="../img/imgproduct/img22.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="hot_item">
+                                    <a href="#">
+                                        <p>váy hoa dài cổ tròn tay cộc 8559</p>
+                                    </a>
+                                    <span class="hot_sale">280,000₫</span>
+
+                                    <span class="old">439,000₫</span>
+                                </div>
+                            </section>
+                            <section>
+                                <div>
+                                    <a href="#" class="hot_img">
+                                        <img src="../img/imgproduct/img23.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="hot_item">
+                                    <a href="#">
+                                        <p>Áo trễ vai 2s sun xếp ly ngực 1210</p>
+                                    </a>
+                                    <span class="hot_sale">280,000₫</span>
+
+                                    <span class="old">439,000₫</span>
+                                </div>
+                            </section>
+                        </article>
+                    </div>
+                    <div class="news">
+                        <article>
+                            <div class="bg_title">
+                                <a href="file:///D:/Assignment_tkweb+html5/list_news/index.html">
+                                    <h2>TIN TỨC</h2>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <section>
+                                <a href="#">
+                                    <img src="../img/tu-quan-ao-dep.png" alt="">
+                                    <h4>Tủ quần áo đẹp mắt và khoa học hơn với 4 bước đơn giản</h4>
+                                </a>
+                                <p>
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    Đặng Đình Khải
+                                    &emsp;
+                                    <i class="fas fa-calendar-alt    "></i>
+                                    17/5/2021
+                                </p>
+                                <p class="news_text">Hầu hết các chị em đều xảy ra tình trạng “không có gì để mặc”
+                                    trong khi tủ quần áo lại có quá nhiều đồ không dùng đến.
+                                    Điều này do nhiều món đồ sẽ bị nhét sâu vào dưới đáy tủ và bị lãng quên.
+                                </p>
+                                <a href="#">
+                                    <span>
+                                        [Đọc tiếp...]
+                                    </span>
+                                </a>
+
+                            </section>
+
+                        </article>
+                    </div>
+                    <div class="ht_contact">
+                        <article>
+                            <div class="bg_title">
+                                <a href="#">
+                                    <h2>THÔNG TIN LIÊN HỆ</h2>
+                                </a>
+                            </div>
+                            <section>
+                                <div id="contact">
+                                    <div>
+                                        <i class="fas fa-headset"></i>
+                                    </div>
+                                    <div>
+                                        <p>Nhân viên tư vấn 1</p>
+                                        <a href="#">
+                                            <span>Mrs Hạnh : (08) 375 488 488</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="contact">
+                                    <div>
+                                        <i class="fas fa-headset"></i>
+                                    </div>
+                                    <div>
+                                        <p>Nhân viên tư vấn 2</p>
+                                        <a href="#">
+                                            <span>Mr Tuấn : (08) 125 333 333</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="contact">
+                                    <div>
+                                        <i class="fas fa-headset"></i>
+                                    </div>
+                                    <div>
+                                        <p>Nhân viên hỗ trợ</p>
+                                        <a href="#">
+                                            <span>Mrs Hằng : (08) 255 999 999</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="contact">
+                                    <div>
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div>
+                                        <p>Email liên hệ</p>
+                                        <a href="#">
+                                            <span>khaiddph15544@fpt.edu.vn</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </section>
+                        </article>
+                    </div>
+
+                </aside>
+                <div class="product">
+                    <div class="product_title">
+                        <a href="#" class="product_title_name">
+                            <i class="fab fa-pagelines" id="product_title_icon_left"></i>
+                            <h3>SẢN PHẨM MỚI</h3>
+                            <i class="fab fa-pagelines"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                    <article>
+                        <section>
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img22.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <a href="file:///D:/Assignment_tkweb+html5/product_detail/index.html">
+                                                <button type="submit">Mua Ngay</button>
+                                            </a>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="file:///D:/Assignment_tkweb+html5/product_detail/index.html">
+                                <p>Áo sơ mi cổ v thon gọn 2 cúc TAA89</p>
+                            </a>
+                            <span class="sale">450,000₫</span><span class="old_cost">600,000₫</span>
+                        </section>
+
+                        <section>
+
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img2.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>Váy cổ v 2 túi cổ tròn đính nơ TCV159</p>
+                            </a>
+                            <span class="sale">280,000₫</span><span class="old_cost">439,000₫</span>
+
+                        </section>
+                        <section>
+
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img24.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>váy hoa dài cổ tròn đính nơ tay cộc 8559</p>
+                            </a>
+                            <span class="sale">525,000₫</span><span class="old_cost">850,000₫</span>
+
+                        </section>
+                        <section>
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img31.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>Váy cổ tròn chân xếp ly súp giữa DAV139</p>
+                            </a>
+                            <span class="sale">800,000₫</span><span class="old_cost">900,000₫</span>
+                        </section>
+                    </article>
+                    <img class="sub_banner_img" src="../img/banner_2.jpg" alt="" style="width:100% ; margin-top: 25px;">
+                    <!-- ------------------------------------- -->
+                    <div class="product_title">
+                        <a href="#" class="product_title_name">
+                            <i class="far fa-paper-plane" id="product_title_icon_left"></i>
+                            <h3>SẢN PHẨM BÁN CHẠY</h3>
+                            <i class="far fa-paper-plane"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <article>
+                        <section>
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img20.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>Váy cổ tròn xếp ly đính nơ ngực TCV162</p>
+                            </a>
+                            <span class="sale">550,000₫</span><span class="old_cost">700,000₫</span>
+                        </section>
+                        <section>
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img21.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>Áo sm hoa croptop khuy trước 3301</p>
+                            </a>
+                            <span class="sale">750,000₫</span><span class="old_cost">900,000₫</span>
+                        </section>
+
+                        <section>
+
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img25.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>
+                                    Áo trễ vai 2s sun xếp ly ngực 1210</p>
+                            </a>
+                            <span class="sale">250,000₫</span><span class="old_cost">439,000₫</span>
+
+                        </section>
+                        <section>
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img23.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>Váy cổ V viền ren thắt nơ DCV270</p>
+                            </a>
+                            <span class="sale">850,000₫</span><span class="old_cost">950,000₫</span>
+                        </section>
+                    </article>
+                    <!-- ----------------------------------------------- -->
+                    <div class="product_title">
+                        <a href="#" class="product_title_name">
+                            <i class="fas fa-leaf" id="product_title_icon_left"></i>
+                            <h3>GERME DESIGN</h3>
+                            <i class="fas fa-leaf"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <article id="dif">
+                        <section>
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img10.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>Váy cổ tròn viền ren đính nơ DCV161</p>
+                            </a>
+                            <span class="sale">249,000₫</span><span class="old_cost">500,000₫</span>
+                        </section>
+                        <section>
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img11.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>Váy cổ v 2 túi chân xếp ly DCV869</p>
+                            </a>
+                            <span class="sale">650,000₫</span><span class="old_cost">900,000₫</span>
+                        </section>
+                        <section>
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img12.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>Váy cổ tròn đính nơ ngực TCL132</p>
+                            </a>
+                            <span class="sale">550,000₫</span><span class="old_cost">800,000₫</span>
+
+                        </section>
+                        <section>
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img13.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>Váy cổ sen đính nơ 2 cúc TAA570</p>
+                            </a>
+                            <span class="sale">189,000₫</span><span class="old_cost">300,000₫</span>
+                        </section>
+                    </article>
+                    <article>
+                        <section>
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img6.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>Váy cổ sen đính nơ 2 cúc TAA570</p>
+                            </a>
+                            <span class="sale">750,000₫</span><span class="old_cost">850,000₫</span>
+                        </section>
+
+                        <section>
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img7.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>Váy cổ sen đính nơ 2 cúc TAA570</p>
+                            </a>
+                            <span class="sale">250,000₫</span><span class="old_cost">350,000₫</span>
+                        </section>
+
+                        <section>
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img8.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>Váy cổ sen đính nơ 2 cúc TAA570</p>
+                            </a>
+                            <span class="sale">400,000₫</span><span class="old_cost">600,000₫</span>
+                        </section>
+                        <section>
+                            <div class="item">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="../img/imgproduct/img9.jpg" alt="">
+                                        <div class="layer"></div>
+                                        <br>
+                                        <div class="enter">
+                                            <button type="submit">Mua Ngay</button>
+                                            <input type="submit" value="Thêm Vào Giỏ Hàng">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="">
+                                <p>Váy cổ sen đính nơ 2 cúc TAA570</p>
+                            </a>
+                            <span class="sale">165,000₫</span><span class="old_cost">400,000₫</span>
+                        </section>
+                    </article>
+                </div>
+            </div>
+
+            <!-- //////////////////////////////////// -->
+            <div class="information">
+                <div class="infor_title">
+                    <a href="#">
+                        <h3>CHÍNH SÁCH TẠI CỬA HÀNG</h3>
+                    </a>
+                </div>
+                <div class="box_infor">
+                    <div class="infor_item delivery" id="gif">
+                        <div class="lazy_img">
+                            <a href="#"><img src="../img/lazyLoading.gif" alt=""></a>
+                        </div>
+                        <a href="">
+                            <h4>Giao hàng toàn quốc</h4>
+                        </a>
+                        <p>Chính sách giao hàng toàn quốc</p>
+                        <div class="more">
+                            <a href="">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="infor_item buy" id="gif">
+                        <div class="lazy_img">
+                            <a href="#"><img src="../img/lazyLoading.gif" alt=""></a>
+                        </div>
+                        <a href="">
+                            <h4>Chính sách mua hàng</h4>
+                        </a>
+                        <p>Chính sách mua hàng</p>
+                        <div class="more">
+                            <a href="">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="infor_item security" id="gif">
+                        <div class="lazy_img">
+                            <a href="#"><img src="../img/lazyLoading.gif" alt=""></a>
+                        </div>
+                        <a href="">
+                            <h4>Thông tin bảo mật</h4>
+                        </a>
+                        <p>Thông tin bảo mật</p>
+                        <div class="more">
+                            <a href="">Xem thêm</a>
+                        </div>
+                    </div>
+                    <div class="infor_item connect_us" id="gif">
+                        <div class="lazy_img">
+                            <a href="#"><img src="../img/lazyLoading.gif" alt=""></a>
+                        </div>
+                        <a href="">
+                            <h4>Liên hệ</h4>
+                        </a>
+                        <p>Gia đình GERME ở Hà Nội</p>
+                        <div class="more">
+                            <a href="">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="freeimg">
+                <img src="../img/sb_1573706863_787.png" alt="">
+
+                <a href="#" class="hover_freeimg">
+                    <p>HỆ THỐNG CỬA HÀNG</p>
+                </a>
+            </div>
+
+        </main>
+        <footer>
+            <div class="footer">
+                <hr>
+                <div class="footer_top">
+                    <div class="contact">
+                        <p>GỌI MUA HÀNG ( 08:30-21:30 )</p>
+                        <div>
+                            <img src="../img/phonee.png" style="width: 12%;" alt="">
+                            <span>
+                                <a href="#">04.37337969</a>
+                            </span>
+                        </div>
+                        <p class="contact_status">Tất cả các ngày trong tuần</p>
+                    </div>
+                    <div class="feedback">
+                        <p>GÓP Ý, KHIẾU NẠI ( 08:30-20:30 )</p>
+                        <div>
+                            <img src="../img/phonee.png" style="width: 12%;" alt="">
+                            <a href="#">04.37337969</a>
+                        </div>
+                        <p class="contact_status">Các ngày trong tuần ( trừ ngày lễ )</p>
+                    </div>
+                    <div class="register">
+                        <p>ĐĂNG KÝ NHẬN THÔNG TIN MỚI</p>
+                        <input class="line" type="text" placeholder="Nhập email của bạn tại đây...">
+                        <input id="regist_submit" class="submit" type="submit" value="Đăng kí">
+                    </div>
+                    <div class="follow">
+                        <p>THEO DÕI CHÚNG TÔI</p>
+                        <a href="#"><img src="../img/facebook_logos_PNG19748.png" width="40px"
+                                style="margin-top: 13px; border-radius: 7px;" alt=""></a>
+                        <a href="#"><img src="../img/insta.png" width="45px" style=" margin:13px 10px 0 " alt=""></a>
+                        <a href="#"><img src="../img/youtube.png" alt="" width="35px"></a>
+                    </div>
+                </div>
+                <div class="footer_bot">
+                    <div class="box_footer_bot">
+                        <ul class="company">
+                            <li class="company_title"><a href="#">CÔNG TY TNHH DỊCH VỤ HÀ BẢO ANH</a></li>
+                            <li>Trụ Sở Công Ty: Germe Shop - 113 Hàm Tử Quan, Phường Phúc Tân, Quận Hoàn Kiếm, Hà
+                                Nội,
+                                Việt
+                                Nam
+                                Hotline : 04.37337969</li>
+                            <li class="email">
+                                <a href="">
+                                    Email: nguyentuonganh85@gmail.com <br>
+                                    admin@germe.vn
+                                </a>
+                            </li>
+                            <li>Mã số thuế: 0106678733</li>
+                            <li>Showroom: Germe Shop - số 73 Tràng Thi-
+                                Phường Hàng Bông - Quận Hoàn Kiếm -Hà Nội</li>
+                            <li>Fanpage: GERME SHOP</li>
+                        </ul>
+                        <ul class="about_us">
+                            <li class="about_us_title"><a href="#">VỀ CHÚNG TÔI</a></li>
+                            <li>
+                                Với hơn 20 cửa hàng trải dài cả nước, Germe
+                                hy vọng sẽ mang đến sự phục vụ chu đáo cho tất cả các khách hàng. Hệ thống cửa hàng
+                                thời trang Germe luôn luôn lắng nghe những ý
+                                kiến đóng góp từ các khách hàng với mục tiêu
+                                đẩy mạnh dịch vụ, mở rộng hệ thống và làm
+                                hài lòng những vị khách đến trên toàn quốc.</li>
+                        </ul>
+                        <ul class="fanpage">
+                            <li class="fanpage_title">
+                                <a href="#">FANPAGE CHÚNG TÔI</a>
+                            </li>
+                            <li>
+                                <iframe
+                                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgerme.shop&tabs=timeline&width=350&height=250&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+                                    width="350" height="250" style="border:none;overflow:hidden" scrolling="no"
+                                    frameborder="0" allowfullscreen="true"
+                                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                                </iframe>
+                            </li>
+                        </ul>
+                        <a href="#"><img src="../img/20150827110756_dathongbao.png" class="footer_notice"
+                                style="width: 250px;" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="bottom_bar">
+            <p>Thiết kế Website bởi KhaiDang</p>
+        </div>
+        <a href="javascript:;" onclick="gototop()" title='Lên đầu trang'><img id="top"
+                src='../img/top_boder.png' /></a><br />
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="common.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.btn_hover').hover(function () {
+                    $(this).find('.sub_menu').stop(true, false).slideDown('slow')
+                    $(this).toggleClass('open');
+                    $(this).find(".sub_menu a").css({
+                        'border-bottom': 'none',
+                    })
+                }, function () {
+                    $(this).find('.sub_menu').stop(true, false).slideUp('slow');
+                    $(this).toggleClass('open');
+                })
+
+            });
+        </script>
+
+</body>
+
+</html>
